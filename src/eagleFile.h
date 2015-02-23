@@ -23,7 +23,7 @@ class wire{
         str += "\" curve= \"";
         str += ofToString(layer);
       }
-      str += "\" />\n";
+      str += "\"/>\n";
 
       return str;
     }
