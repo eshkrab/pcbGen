@@ -1,0 +1,666 @@
+TemptyExample
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin/emptyExample.app/Contents/Info.plist /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/openFrameworks-Info.plist
+cCompileC build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/main.o /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/eagleFile.o /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/ofApp.o /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052692BBB000000000000044C
+t1382624187
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052692BBB00000000000001DB
+t1382624187
+s475
+
+N/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin/emptyExample.app/Contents/Info.plist
+t2
+s0
+
+N/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin/emptyExample.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/eagleFile.o
+t2
+s0
+
+N/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/ofApp.o
+t2
+s0
+
+N/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/openFrameworks-Info.plist
+c0000000054E94D8E000000000000029E
+t1424575886
+s670
+
+N/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp
+c0000000054E978350000000000000459
+t1424586805
+s1113
+
+N/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/main.cpp
+c0000000054E94D8E0000000000000158
+t1424575886
+s344
+
+N/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/ofApp.cpp
+c0000000054E94D8E0000000000000510
+t1424575886
+s1296
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3012c6381f9aba41^17d8c7381f9aba41^---0#1#1#--18"Check dependencies36"A726B9F7-9ADD-40E1-9A06-39AAB46B1662-
+
+CCompileC build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/eagleFile.o /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s446308152.786230
+e446308155.660263
+r0
+xCompileC
+xbuild/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/eagleFile.o
+x/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/ofApp.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/ofMain.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofConstants.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/glew/include/GL/glew.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/tess2/include/tesselator.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofFileUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/File.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Foundation.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Config.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Platform.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Platform_POSIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Bugcheck.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Types.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Timestamp.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/File_UNIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofLog.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofTypes.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofColor.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofMath.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofPoint.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofVec3f.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofVec2f.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofVec4f.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Mutex.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Exception.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ScopedLock.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Mutex_POSIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofSystemUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofThread.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Thread.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Thread_POSIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Runnable.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SignalHandler.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Event.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Event_POSIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/RefCountedObject.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AtomicCounter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AutoPtr.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofURLFileLoader.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/events/ofEvents.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/events/ofEventUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/PriorityEvent.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AbstractEvent.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SingletonHolder.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SharedPtr.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ActiveResult.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ActiveMethod.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ActiveRunnable.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ActiveStarter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ThreadPool.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/PriorityStrategy.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/NotificationStrategy.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AbstractPriorityDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AbstractDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/PriorityDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/PriorityExpire.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/FunctionPriorityDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/events/ofDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Condition.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ScopedUnlock.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Path.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofBaseTypes.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofRectangle.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/ofMesh.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofGLUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofPixels.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofMatrix4x4.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofQuaternion.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofXml.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Document.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XML.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/AbstractContainerNode.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/AbstractNode.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Node.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/EventTarget.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DOMObject.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XMLString.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/NamespaceSupport.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/MutationEvent.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Event.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DocumentEvent.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Element.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/Name.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/NamePool.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AutoReleasePool.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DocumentFragment.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DOMParser.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/SAXParser.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/XMLReader.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/ParserEngine.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/expat.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/expat_external.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XMLStream.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/Locator.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/TextEncoding.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DOMException.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XMLException.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/SAXException.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XMLWriter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/ContentHandler.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/LexicalHandler.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/DTDHandler.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/StreamConverter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/UnbufferedStreamBuf.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/StreamUtil.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DOMWriter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Attr.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Text.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/CharacterData.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/NodeIterator.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/NodeFilter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/NamedNodeMap.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/ChildNodesList.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/NodeList.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofParameter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofParameterGroup.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Any.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofVectorMath.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofMatrix3x3.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/communication/ofSerial.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/communication/ofArduino.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofFbo.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofTexture.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofVboMesh.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofVbo.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofGLRenderer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofPolyline.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofGraphics.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofMatrixStack.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofLight.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/ofNode.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/of3dUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/of3dGraphics.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/of3dPrimitives.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofMaterial.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofShader.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/RegularExpression.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/app/ofAppBaseWindow.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofGLProgrammableRenderer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofCairoRenderer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-features.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-pdf.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-version.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-deprecated.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-svg.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofPath.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofTessellator.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofImage.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofRendererCollection.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofTrueTypeFont.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/app/ofBaseApp.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/app/ofAppRunner.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofSoundStream.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofBaseSoundStream.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofRtAudioSoundStream.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofSoundPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofBaseSoundPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofFmodSoundPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod_codec.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod_dsp.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod_memoryinfo.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod_errors.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/video/ofVideoGrabber.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/video/ofQTKitGrabber.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/video/ofVideoPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/video/ofQTKitPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/ofCamera.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/ofEasyCam.h
+oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
+o[1m/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp:5:15: [0m[0;1;31merror: [0m[1mno viable
+o      conversion from 'string' (aka 'basic_string<char>') to 'const char *'[0m
+o  r_file.open(addr, ios::out);
+o[0;1;32m              ^~~~
+o[0mIn file included from /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp:1:
+oIn file included from src/eagleFile.h:1:
+oIn file included from src/ofApp.h:3:
+oIn file included from ../../../libs/openFrameworks/ofMain.h:5:
+oIn file included from ../../../libs/openFrameworks/utils/ofConstants.h:353:
+o[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/c++/4.2.1/fstream:517:24: [0m[0;1;30mnote: [0m
+o      passing argument to parameter '__s' here[0m
+o      open(const char* __s, ios_base::openmode __mode = ios_base::in)
+o[0;1;32m                       ^
+o[0m[1m/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp:8:14: [0m[0;1;31merror: [0m[1minvalid
+o      operands to binary expression ('string *' (aka 'basic_string<char> *') and 'basic_string<char,
+o      std::char_traits<char>, std::allocator<char> >')[0m
+o      header += line + '\n';
+o[0;1;32m      ~~~~~~ ^  ~~~~~~~~~~~
+o[0m2 errors generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp186"[1mCompileC[0m build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/eagleFile.o [1msrc/eagleFile.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler3a75c9381f9aba41^d504a93b1f9aba41^-1366"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m[1m/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp:5:15: [0m[0;1;31merror: [0m[1mno viable      conversion from 'string' (aka 'basic_string<char>') to 'const char *'[0m  r_file.open(addr, ios::out);[0;1;32m              ^~~~[0mIn file included from /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp:1:In file included from src/eagleFile.h:1:In file included from src/ofApp.h:3:In file included from ../../../libs/openFrameworks/ofMain.h:5:In file included from ../../../libs/openFrameworks/utils/ofConstants.h:353:[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/c++/4.2.1/fstream:517:24: [0m[0;1;30mnote: [0m      passing argument to parameter '__s' here[0m      open(const char* __s, ios_base::openmode __mode = ios_base::in)[0;1;32m                       ^[0m[1m/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp:8:14: [0m[0;1;31merror: [0m[1minvalid      operands to binary expression ('string *' (aka 'basic_string<char> *') and 'basic_string<char,      std::char_traits<char>, std::allocator<char> >')[0m      header += line + '\n';[0;1;32m      ~~~~~~ ^  ~~~~~~~~~~~[0m2 errors generated.2(36%IDEClangDiagnosticActivityLogMessage2@79"No viable conversion from 'string' (aka 'basic_string<char>') to 'const char *'-446308155#18446744073709551615#0#1(2@40"Passing argument to parameter '__s' here-446308155#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@135"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/c++/4.2.1/fstream0000000000000000^516#23#516#23#17085#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@87"file:///Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp0000000000000000^4#14#4#14#94#0#14"Semantic Issue1(3@87"file:///Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp0000000000000000^4#14#4#18#94#0#-2@151"Invalid operands to binary expression ('string *' (aka 'basic_string<char> *') and 'basic_string<char, std::char_traits<char>, std::allocator<char> >')-446308155#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@87"file:///Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp0000000000000000^7#13#7#13#182#0#14"Semantic Issue2(3@87"file:///Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp0000000000000000^7#6#7#12#175#0#3@87"file:///Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp0000000000000000^7#16#7#27#185#7#-0#0#1#-19%DVTDocumentLocation4@87"file:///Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp0000000000000000^3406"[1mCompileC[0m build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/eagleFile.o [1msrc/eagleFile.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=108 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -funroll-loops -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/emptyExample.hmap -I/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/DerivedSources/i386 -I/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/DerivedSources -F/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin -F/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/eagleFile.d --serialize-diagnostics /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/eagleFile.dia -c /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/eagleFile.cpp -o /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/eagleFile.o36"A84EDF27-A79E-41BD-8EA3-F9B720B18D32-
+b290D4EF5-9241-465D-9E6B-BA21A37DD14E
+
+CCompileC build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/main.o /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s446308152.785799
+e446308155.904613
+r1
+xCompileC
+xbuild/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/main.o
+x/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/main.cpp
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/ofMain.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofConstants.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/glew/include/GL/glew.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/tess2/include/tesselator.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofFileUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/File.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Foundation.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Config.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Platform.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Platform_POSIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Bugcheck.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Types.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Timestamp.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/File_UNIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofLog.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofTypes.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofColor.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofMath.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofPoint.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofVec3f.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofVec2f.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofVec4f.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Mutex.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Exception.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ScopedLock.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Mutex_POSIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofSystemUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofThread.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Thread.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Thread_POSIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Runnable.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SignalHandler.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Event.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Event_POSIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/RefCountedObject.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AtomicCounter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AutoPtr.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofURLFileLoader.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/events/ofEvents.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/events/ofEventUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/PriorityEvent.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AbstractEvent.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SingletonHolder.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SharedPtr.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ActiveResult.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ActiveMethod.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ActiveRunnable.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ActiveStarter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ThreadPool.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/PriorityStrategy.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/NotificationStrategy.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AbstractPriorityDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AbstractDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/PriorityDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/PriorityExpire.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/FunctionPriorityDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/events/ofDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Condition.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ScopedUnlock.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Path.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofBaseTypes.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofRectangle.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/ofMesh.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofGLUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofPixels.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofMatrix4x4.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofQuaternion.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofXml.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Document.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XML.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/AbstractContainerNode.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/AbstractNode.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Node.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/EventTarget.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DOMObject.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XMLString.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/NamespaceSupport.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/MutationEvent.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Event.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DocumentEvent.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Element.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/Name.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/NamePool.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AutoReleasePool.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DocumentFragment.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DOMParser.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/SAXParser.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/XMLReader.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/ParserEngine.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/expat.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/expat_external.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XMLStream.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/Locator.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/TextEncoding.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DOMException.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XMLException.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/SAXException.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XMLWriter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/ContentHandler.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/LexicalHandler.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/DTDHandler.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/StreamConverter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/UnbufferedStreamBuf.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/StreamUtil.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DOMWriter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Attr.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Text.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/CharacterData.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/NodeIterator.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/NodeFilter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/NamedNodeMap.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/ChildNodesList.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/NodeList.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofParameter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofParameterGroup.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Any.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofVectorMath.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofMatrix3x3.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/communication/ofSerial.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/communication/ofArduino.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofFbo.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofTexture.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofVboMesh.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofVbo.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofGLRenderer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofPolyline.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofGraphics.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofMatrixStack.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofLight.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/ofNode.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/of3dUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/of3dGraphics.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/of3dPrimitives.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofMaterial.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofShader.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/RegularExpression.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/app/ofAppBaseWindow.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofGLProgrammableRenderer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofCairoRenderer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-features.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-pdf.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-version.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-deprecated.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-svg.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofPath.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofTessellator.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofImage.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofRendererCollection.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofTrueTypeFont.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/app/ofBaseApp.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/app/ofAppRunner.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofSoundStream.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofBaseSoundStream.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofRtAudioSoundStream.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofSoundPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofBaseSoundPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofFmodSoundPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod_codec.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod_dsp.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod_memoryinfo.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod_errors.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/video/ofVideoGrabber.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/video/ofQTKitGrabber.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/video/ofVideoPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/video/ofQTKitPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/ofCamera.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/ofEasyCam.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/ofApp.h
+oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/main.cpp176"[1mCompileC[0m build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/main.o [1msrc/main.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler8b53c9381f9aba41^9694e73b1f9aba41^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@82"file:///Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/main.cpp0000000000000000^3376"[1mCompileC[0m build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/main.o [1msrc/main.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=108 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -funroll-loops -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/emptyExample.hmap -I/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/DerivedSources/i386 -I/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/DerivedSources -F/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin -F/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/main.dia -c /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/main.cpp -o /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/main.o36"EAF01667-A044-4FAE-928B-B7783F08828C-
+b290D4EF5-9241-465D-9E6B-BA21A37DD14E
+
+CCompileC build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/ofApp.o /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s446308152.786803
+e446308155.905128
+r1
+xCompileC
+xbuild/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/ofApp.o
+x/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/ofApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/ofApp.cpp
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/ofApp.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/ofMain.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofConstants.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/glew/include/GL/glew.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/tess2/include/tesselator.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofFileUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/File.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Foundation.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Config.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Platform.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Platform_POSIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Bugcheck.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Types.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Timestamp.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/File_UNIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofLog.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofTypes.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofColor.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofMath.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofPoint.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofVec3f.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofVec2f.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofVec4f.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Mutex.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Exception.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ScopedLock.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Mutex_POSIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofSystemUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofThread.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Thread.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Thread_POSIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Runnable.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SignalHandler.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Event.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Event_POSIX.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/RefCountedObject.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AtomicCounter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AutoPtr.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofURLFileLoader.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/events/ofEvents.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/events/ofEventUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/PriorityEvent.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AbstractEvent.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SingletonHolder.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SharedPtr.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ActiveResult.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ActiveMethod.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ActiveRunnable.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ActiveStarter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ThreadPool.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/PriorityStrategy.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/NotificationStrategy.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AbstractPriorityDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AbstractDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/PriorityDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/PriorityExpire.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/FunctionPriorityDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/events/ofDelegate.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Condition.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/ScopedUnlock.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Path.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofBaseTypes.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofRectangle.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/ofMesh.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofGLUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofPixels.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofMatrix4x4.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofQuaternion.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofXml.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Document.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XML.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/AbstractContainerNode.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/AbstractNode.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Node.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/EventTarget.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DOMObject.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XMLString.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/NamespaceSupport.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/MutationEvent.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Event.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DocumentEvent.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Element.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/Name.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/NamePool.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/AutoReleasePool.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DocumentFragment.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DOMParser.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/SAXParser.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/XMLReader.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/ParserEngine.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/expat.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/expat_external.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XMLStream.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/Locator.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/TextEncoding.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DOMException.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XMLException.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/SAXException.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/XML/XMLWriter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/ContentHandler.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/LexicalHandler.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/SAX/DTDHandler.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/StreamConverter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/UnbufferedStreamBuf.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/StreamUtil.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/DOMWriter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Attr.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/Text.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/CharacterData.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/NodeIterator.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/NodeFilter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/NamedNodeMap.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/ChildNodesList.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/DOM/NodeList.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofParameter.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/types/ofParameterGroup.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/Any.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofVectorMath.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/math/ofMatrix3x3.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/communication/ofSerial.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/communication/ofArduino.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofFbo.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofTexture.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofVboMesh.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofVbo.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofGLRenderer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofPolyline.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofGraphics.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/utils/ofMatrixStack.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofLight.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/ofNode.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/of3dUtils.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/of3dGraphics.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/of3dPrimitives.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofMaterial.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofShader.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/poco/include/Poco/RegularExpression.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/app/ofAppBaseWindow.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/gl/ofGLProgrammableRenderer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofCairoRenderer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-features.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-pdf.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-version.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-deprecated.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/cairo/include/cairo/cairo-svg.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofPath.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofTessellator.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofImage.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofRendererCollection.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/graphics/ofTrueTypeFont.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/app/ofBaseApp.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/app/ofAppRunner.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofSoundStream.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofBaseSoundStream.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofRtAudioSoundStream.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofSoundPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofBaseSoundPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/sound/ofFmodSoundPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod_codec.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod_dsp.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod_memoryinfo.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/fmodex/include/fmod_errors.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/video/ofVideoGrabber.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/video/ofQTKitGrabber.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/video/ofVideoPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/video/ofQTKitPlayer.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/ofCamera.h
+d/Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/openFrameworks/3d/ofEasyCam.h
+oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/ofApp.cpp178"[1mCompileC[0m build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/ofApp.o [1msrc/ofApp.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilera1d9c9381f9aba41^0ce6e73b1f9aba41^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@83"file:///Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/ofApp.cpp0000000000000000^3382"[1mCompileC[0m build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/ofApp.o [1msrc/ofApp.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=108 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -funroll-loops -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/emptyExample.hmap -I/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -Isrc -I/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/DerivedSources/i386 -I/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/DerivedSources -F/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin -F/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/ofApp.d --serialize-diagnostics /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/ofApp.dia -c /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/src/ofApp.cpp -o /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/Objects-normal/i386/ofApp.o36"373451B1-10BA-46E9-B96E-565B0D0FC044-
+b290D4EF5-9241-465D-9E6B-BA21A37DD14E
+
+CLd /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin/emptyExample.app/Contents/MacOS/emptyExample normal i386
+r0
+
+CPBXCp /Users/Shkryaba/dev/of_v0.8.1_osx_release/libs/glut/lib/osx/GLUT.framework bin/emptyExample.app/Contents/Frameworks/GLUT.framework
+r0
+
+CPhaseScriptExecution Run\ Script /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/build/emptyExample.build/Release/emptyExample.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+r0
+
+CProcessInfoPlistFile /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin/emptyExample.app/Contents/Info.plist /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/openFrameworks-Info.plist
+s446308152.781874
+e446308152.784862
+r1
+xProcessInfoPlistFile
+x/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin/emptyExample.app/Contents/Info.plist
+x/Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/openFrameworks-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Process /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/openFrameworks-Info.plist103"[1mProcessInfoPlistFile[0m bin/emptyExample.app/Contents/Info.plist [1mopenFrameworks-Info.plist[0me547c8381f9aba41^81edc8381f9aba41^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/openFrameworks-Info.plist0000000000000000^550"[1mProcessInfoPlistFile[0m bin/emptyExample.app/Contents/Info.plist [1mopenFrameworks-Info.plist[0m    cd /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen    builtin-infoPlistUtility /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/openFrameworks-Info.plist -genpkginfo /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin/emptyExample.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin/emptyExample.app/Contents/Info.plist36"55CD3602-1ADD-46CF-88F0-FF7001A94D20-
+b290D4EF5-9241-465D-9E6B-BA21A37DD14E
+
+CTouch /Users/Shkryaba/dev/of_v0.8.1_osx_release/apps/myApps/eagleGen/bin/emptyExample.app
+r0
+
