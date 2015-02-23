@@ -24,4 +24,6 @@ class ofApp : public ofBaseApp{
     void guiEvent(ofxUIEventArgs &e);
     void setGui();
 
+    ofTrueTypeFont text;
+
 };
