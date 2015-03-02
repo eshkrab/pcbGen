@@ -1,6 +1,7 @@
 #include "eagleFile.h"
 
-void eagleFile::readIn(vector <string> *str_vec, string addr){
+//--------------------------------------------------BRD FILE FUNCTIONS
+void brdFile::readIn(vector <string> *str_vec, string addr){
   ofBuffer buff = ofBufferFromFile(addr);
 
   if(buff.size()){
@@ -14,19 +15,104 @@ void eagleFile::readIn(vector <string> *str_vec, string addr){
   }
 
 }
-void eagleFile::createFile(ledRing * r){
+void brdFile::createFile(ledRing * r){
   ring=r;
   //load in static things
-  readIn(&header, "stat/brd_header.txt");
-  readIn(&mid_file, "stat/brd_mid_file.txt");
-  readIn(&libraries, "stat/ring_lib.txt");
-  readIn(&footer, "stat/brd_footer.txt");
+  readIn(&header,     "stat/brd_header.txt");
+  readIn(&mid_file,   "stat/brd_mid_file.txt");
+  readIn(&libraries,  "stat/brd_libs.txt");
+  readIn(&footer,     "stat/brd_footer.txt");
 }
 
-void writeOut(vector <string> str_vec, string addr){
+void brdFile::writeHeader(string path){
+  int count=0;
+  for(vector<string>::iterator it = header.begin(); it != header.end(); ++it){
+    if(count<140){
+      write_buff.append(*it);
+    }
+  }
 
 }
-void eagleFile::writeHeader(){
+void brdFile::writePlain(string path){
+  write_buff.append("<plain>\n");
+  for(vector<wire>::iterator it=ring->outlines.begin(); it !=ring->outlines.end(); ++it){
+    write_buff.append(it->toString());
+  }
+  write_buff.append("</plain>\n");
+
+}
+void brdFile::writeLib(string path){
+  write_buff.append("<libraries>\n");
+  for(vector<string>::iterator it = libraries.begin(); it!=libraries.end(); ++it){
+    write_buff.append(*it);
+  }
+  write_buff.append("</libraries>\n");
+
+}
+void brdFile::writeMidFile(string path){
+  for(vector<string>::iterator it = mid_file.begin(); it!=mid_file.end(); ++it){
+    write_buff.append(*it);
+  }
+
+}
+void brdFile::writeElem(string path){
+  write_buff.append("<elements>\n");
+
+  write_buff.append("</elements>\n");
+
+}
+void brdFile::writeSig(string path){
+  write_buff.append("<signals>\n");
+
+  write_buff.append("</signals>\n");
+
+}
+void brdFile::writeFooter(string path){
+  for(vector<string>::iterator it = footer.begin(); it!=footer.end(); ++it){
+    write_buff.append(*it);
+  }
+
+}
+int brdFile::saveFile(string path){
+  
+
+  writeHeader(path);
+  writePlain(path);
+  writeLib(path);
+  writeMidFile(path);
+  writeElem(path);
+  writeSig(path);
+  writeFooter(path);
+
+  int fileWritten = ofBufferToFile(path, write_buff);
+  write_buff.clear();
+  return fileWritten;
+
+}
+//--------------------------------------------------SCH FILE FUNCTIONS
+void schFile::readIn(vector <string> *str_vec, string addr){
+  ofBuffer buff = ofBufferFromFile(addr);
+
+  if(buff.size()){
+    while(!buff.isLastLine()) {
+      // move on to the next line
+      string line = buff.getNextLine();
+      if(line.empty() == false) {
+        str_vec->push_back(line+"\n");
+      }
+    }
+  }
+
+}
+void schFile::createFile(ledRing * r){
+  ring=r;
+  //load in static things
+  readIn(&header,     "stat/sch_header.txt");
+  readIn(&libraries,  "stat/sch_libs.txt");
+  readIn(&footer,     "stat/sch_footer.txt");
+}
+
+void schFile::writeHeader(string path){
   int count=0;
   for(vector<string>::iterator it = header.begin(); it != header.end(); ++it){
     if(count<140){
@@ -34,59 +120,164 @@ void eagleFile::writeHeader(){
     }
   }
 }
-void eagleFile::writePlain(){
-  write_buff.append("<plain>\n");
-  for(vector<wire>::iterator it=ring->outlines.begin(); it !=ring->outlines.end(); ++it){
-    write_buff.append(it->toString());
-  }
-  write_buff.append("</plain>\n");
-}
-void eagleFile::writeLib(){
+void schFile::writeLib(string path){
   write_buff.append("<libraries>\n");
-  write_buff.append("</libraries>\n");
-  //for(vector<string>::iterator it = libraries.begin(); it!=libraries.end(); ++it){
-  //  write_buff.append(*it);
-  //}
-
-}
-void eagleFile::writeMidFile(){
-  for(vector<string>::iterator it = mid_file.begin(); it!=mid_file.end(); ++it){
+  for(vector<string>::iterator it = libraries.begin(); it!=libraries.end(); ++it){
     write_buff.append(*it);
   }
-}
-void eagleFile::writeElem(){
-  write_buff.append("<elements>\n");
+  write_buff.append("</libraries>\n");
 
-  write_buff.append("</elements>\n");
 }
-void eagleFile::writeSig(){
-  write_buff.append("<signals>\n");
+void schFile::writeAttrVar(string path){
+  //GONNA HARDCODE CLASSES IN FOR NOW CAUSE WHY NOT
+  write_buff.append("<attributes>\n");
+  write_buff.append("</attributes>\n");
+  write_buff.append("<variantdefs>\n");
+  write_buff.append("</variantdefs>\n");
+  write_buff.append("<classes>\n");
+  write_buff.append("<class number=\"0\" name=\"default\" width=\"0\" drill=\"0\">\n");
+  write_buff.append("</class>\n");
+  write_buff.append("<class number=\"1\" name=\"power\" width=\"0.254\" drill=\"0.6096\">\n");
+  write_buff.append("<clearance class=\"1\" value=\"0.254\"/>\n");
+  write_buff.append("</class>\n");
+  write_buff.append("<class number=\"2\" name=\"gnd\" width=\"0.254\" drill=\"0.6096\">\n");
+  write_buff.append("<clearance class=\"2\" value=\"0.254\"/>\n");
+  write_buff.append("</class>\n");
+  write_buff.append("<class number=\"3\" name=\"usbvcc\" width=\"0.254\" drill=\"0.6096\">\n");
+  write_buff.append("<clearance class=\"3\" value=\"0.254\"/>\n");
+  write_buff.append("</class>\n");
+  write_buff.append("<class number=\"4\" name=\"aref\" width=\"0.254\" drill=\"0.6096\">\n");
+  write_buff.append("<clearance class=\"4\" value=\"0.254\"/>\n");
+  write_buff.append("</class>\n");
+  write_buff.append("</classes>\n");
+}
+void schFile::writeParts(string path){
+  write_buff.append("<parts>\n");
+  ofLog()<< "buffer size: "+ ofToString(write_buff.size());
+  for(vector<part>::iterator it=ring->parts.begin(); it !=ring->parts.end(); ++it){
+    write_buff.append(it->toString());
+  }
+  //for(int i=0; i<ring->parts.size(); i++){
+  //  ofLog()<<"oi";
+  //  write_buff.append(ring->parts[i].toString());
+  //}
 
-  write_buff.append("</signals>\n");
+  write_buff.append("</parts>\n");
+  write_buff.append("<sheets>\n");
+  write_buff.append("<sheet>\n");
+  write_buff.append("<plain>\n");
+  write_buff.append("</plain>\n");
 }
-void eagleFile::writeFooter(){
+void schFile::writeInst(string path){
+  write_buff.append("<instances>\n");
+
+  write_buff.append("</instances>\n");
+}
+
+void schFile::writeNet(string path){
+  write_buff.append("<busses>\n");
+  write_buff.append("</busses>\n");
+  write_buff.append("<nets>\n");
+  for(vector<string>::iterator it = nets.begin(); it!=nets.end(); ++it){
+    write_buff.append(*it);
+  }
+  write_buff.append("</nets>\n");
+
+}
+
+void schFile::writeFooter(string path){
   for(vector<string>::iterator it = footer.begin(); it!=footer.end(); ++it){
     write_buff.append(*it);
   }
 
 }
-int eagleFile::saveFile(string path){
+int schFile::saveFile(string path){
   
-  ring->basicOutline();
 
-  writeHeader();
-  writePlain();
-  writeLib();
-  writeMidFile();
-  writeElem();
-  writeSig();
-  writeFooter();
+  writeHeader(path);
+  writeLib(path);
+  writeAttrVar(path);
+  writeParts(path);
+  writeInst(path);
+  writeNet(path);
+  writeFooter(path);
 
   int fileWritten = ofBufferToFile(path, write_buff);
+  write_buff.clear();
   return fileWritten;
 
 }
+//--------------------------------------------------OTHER SHIT
+void ledRing::createParts(){
 
+  //STATIC PARTS
+  part *p = new part[8];
+  p[0].name = "OUT_CXN";
+  p[0].library = "spencer";
+  p[0].deviceset = "LEDRINGPADS";
+  p[0].device = "";
+  ////
+  p[1].name = "IN_CXN";
+  p[1].library = "spencer";
+  p[1].deviceset = "LEDRINGPADS";
+  p[1].device = "";
+  ////
+  p[2].name = "SJ1";
+  p[2].library = "SparkFun-Retired";
+  p[2].deviceset = "SOLDERJUMPER";
+  p[2].device = "NO";
+  ////
+  p[3].name = "SJ2";
+  p[3].library = "SparkFun-Retired";
+  p[3].deviceset = "SOLDERJUMPER";
+  p[3].device = "NC";
+  ////
+  p[4].name = "SJ3";
+  p[4].library = "SparkFun-Retired";
+  p[4].deviceset = "SOLDERJUMPER";
+  p[4].device = "NO";
+  ////
+  p[5].name = "MCU_CXN";
+  p[5].library = "SparkFun-Connectors";
+  p[5].deviceset = "RJ45-8";
+  p[5].device = "PTH";
+  ////
+  p[6].name = "HAL";
+  p[6].library = "SparkFun-DiscreteSemi";
+  p[6].deviceset = "MOSFET-PCHANNEL";
+  p[6].device = "";
+  ////
+  p[7].name = "S1";
+  p[7].library = "SparkFun-Electromechanical";
+  p[7].deviceset = "SWITCH-MOMENTARY-2";
+  p[7].device = "PTH";
+  ////
+  for(int i=0; i<8; i++){
+    parts.push_back(p[i]);
+  }
+
+  int LPS = (int)led/seg;
+  ofLog()<< ofToString(LPS);
+  for(int i=0; i< LPS; i++){
+    part *l = new part;
+    l->name = "T"+ofToString(i);
+    l->library = "SparkFun-LED";
+    l->deviceset = "APA102";
+    l->device = "";
+    parts.push_back(*l);
+  }
+  if(two_side){
+    for(int i=0; i< LPS; i++){
+      part *l1 = new part;
+      l1->name = "B"+ofToString(i);
+      l1->library = "SparkFun-LED";
+      l1->deviceset = "APA102";
+      l1->device = "";
+      parts.push_back(*l1);
+    }
+  }
+  ofLog()<<"parts size: "+ofToString(parts.size());
+}
 void ledRing::basicOutline(){
   wire *w = new wire[13];
   //HARDCODE ALL THE SHIT

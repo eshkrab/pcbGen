@@ -1,14 +1,19 @@
 #include "ofApp.h"
 
-eagleFile *eFile;
+brdFile *bFile;
+schFile *sFile;
 ledRing *ring;
 //--------------------------------------------------------------
 void ofApp::setup(){
 
-  eFile = new eagleFile;
+  ofBackground(ofColor::lightGray);
+
+  bFile = new brdFile;
+  sFile = new schFile;
   ring = new ledRing;
   ring->orad = ring->irad = ring->mrad = 0;
   ring->led = 0;
+  ring->width = 0;
   ring->seg = 0;
   ring->led_type = 0;
 
@@ -19,7 +24,9 @@ void ofApp::setup(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 
-  ofSetColor(ofColor::darkGray);
+  ofSetColor(78, 78, 78);
+
+  text.drawString("Two Sided? "+ ofToString(ring->two_side), 100, ofGetHeight()-85); 
   text.drawString("Outer Diameter: "+ ofToString(ring->orad*2), 100, ofGetHeight()-60); 
   text.drawString("Number of Segments: "+ ofToString(ring->seg), 100, ofGetHeight()-45); 
   text.drawString("Number of LEDs: "+ ofToString(ring->led), 100, ofGetHeight()-30); 
@@ -33,20 +40,25 @@ void ofApp::draw(){
 //--------------------------------------------------------------
 void ofApp::setGui(){
 
-  vector<string> names;
-  names.push_back("NEOPIXEL");
-  names.push_back("DOTSTAR");
+  vector<string> leds;
+  leds.push_back("NEOPIXEL");
+  leds.push_back("DOTSTAR");
+  vector<string> back_front;
+  back_front.push_back("ONE SIDE");
+  back_front.push_back("BOTH SIDES");
   gui = new ofxUISuperCanvas("RING GENERATOR");
   gui->addSpacer();
-  
-  gui->addTextInput("OD", "outer diameter")->setAutoClear(false);
-  gui->addTextInput("WD", "width")->setAutoClear(false);
-  gui->addTextInput("SEG", "how many segments")->setAutoClear(false);
-  gui->addTextInput("LED", "how many leds")->setAutoUnfocus(false);
-  gui->addRadio("LED_TYPE", names, OFX_UI_ORIENTATION_VERTICAL);
+  gui->addTextInput("OD", "outer diameter " + ofToString(ring->orad*2))->setAutoClear(true);
+  gui->addTextInput("WD", "width "+ ofToString(ring->width))->setAutoClear(true);
+  gui->addTextInput("SEG", "how many segments "+ ofToString(ring->seg))->setAutoClear(true);
+  gui->addTextInput("LED", "how many leds "+ ofToString(ring->led))->setAutoUnfocus(true);
+  gui->addRadio("LED_TYPE", leds, OFX_UI_ORIENTATION_VERTICAL);
+  gui->addSpacer();
+  gui->addRadio("LED_SIDE", back_front, OFX_UI_ORIENTATION_VERTICAL);
   gui->addSpacer();
   gui->addLabelButton("GENERATE", false);
   gui->addLabelButton("SAVE", false);
+  gui->autoSizeToFitWidgets();  
 
   ofAddListener(gui->newGUIEvent,this,&ofApp::guiEvent);
 }
@@ -72,18 +84,30 @@ void ofApp::guiEvent(ofxUIEventArgs &e)
   }else if (name == "LED_TYPE"){
     ofxUIRadio *radio = (ofxUIRadio *) e.widget;
     if(radio->getActiveName() == "NEOPIXEL") ring->led_type = NEO;
-    else if (radio->getActiveName() == "NEOPIXEL") ring->led_type = DOT;
+    else if (radio->getActiveName() == "DOTSTAR") ring->led_type = DOT;
+
+  }else if (name == "LED_SIDE"){
+    ofxUIRadio *radio = (ofxUIRadio *) e.widget;
+    if(radio->getActiveName() == "ONE SIDE") ring->two_side = 0;
+    else if (radio->getActiveName() == "BOTH SIDES") ring->two_side = 1;
 
   }else if (name == "GENERATE"){
-    ring->irad = ring->orad - ring->width;
-    ring->mrad = ring->irad + ring->width/2;
+    ofxUIButton *button = (ofxUIButton *) e.widget;
+    if(!button->getValue()){
+      ring->irad = ring->orad - ring->width;
+      ring->mrad = ring->irad + ring->width/2;
+      ring->basicOutline();
+      ring->createParts();
+    }
   }else if (name == "SAVE"){
     ofxUIButton *button = (ofxUIButton *) e.widget;
     if(!button->getValue()){
-      ofFileDialogResult saveFileResult = ofSystemSaveDialog("ledRing.brd", "Save your ring");
-      if (saveFileResult.bSuccess){
-        eFile->createFile(ring);
-        eFile->saveFile(saveFileResult.filePath);
+      ofFileDialogResult savbFileResult = ofSystemSaveDialog("ledRing", "Save your ring");
+      if (savbFileResult.bSuccess){
+        sFile->createFile(ring);
+        sFile->saveFile(savbFileResult.filePath+".sch");
+        bFile->createFile(ring);
+        bFile->saveFile(savbFileResult.filePath+".brd");
       }
     }
   }

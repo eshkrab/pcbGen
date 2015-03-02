@@ -30,20 +30,48 @@ class wire{
 
 
 };
+class part{
+  public:
+    string name;
+    string library;
+    string deviceset;
+    string device;
+
+    string toString(){
+      string str = "<part name=\"" + name + "\" library=\"" + library + "\" deviceset=\"";
+      str += deviceset + "\" device=\"" + device + "\"/>\n";
+      return str;
+    }
+};
+class instance{
+  public:
+    part *p;
+    string gate;
+    float x;
+    float y;
+
+    string toString(){
+      string str = "<instance part=\"" + p->name + "\" gate=\"" + gate + "\" x=\"";
+      str += ofToString(x) + "\" y=\"" + ofToString(y) + "\"/>\n";
+    }
+};
 class ledRing{
   public:
     float irad, orad, mrad;
     float width;
     int seg;
     int led;
-  int led_type;
+    int led_type;
+    int two_side;
     vector <wire> outlines;
+    vector <part> parts;
 
     void basicOutline();
+    void createParts();
 };
 
 
-class eagleFile{
+class brdFile{
   public:
     ofBuffer write_buff;
     ledRing *ring;
@@ -65,12 +93,43 @@ class eagleFile{
 
     void writeOut(vector <string> str_vec, string addr);
     int saveFile(string path);
-    void writeHeader();
-    void writePlain();
-    void writeLib();
-    void writeMidFile();
-    void writeElem();
-    void writeSig();
-    void writeFooter();
+    void writeHeader(string path);
+    void writePlain(string path);
+    void writeLib(string path);
+    void writeMidFile(string path);
+    void writeElem(string path);
+    void writeSig(string path);
+    void writeFooter(string path);
+
+};
+
+class schFile{
+  public:
+    ofBuffer write_buff;
+    ledRing *ring;
+
+    //file componenets
+    vector <string> header;
+    vector <string> libraries;
+    
+    vector <string> attr_var_class; //holds attr, var, classes, designrules, autorouter
+    vector <string> parts;
+    vector <string> instances;
+    vector <string> nets;
+    vector <string> footer;
+
+    //functs
+
+    void readIn(vector <string> *str_vec, string addr);
+    void createFile(ledRing *ring);
+
+    int saveFile(string path);
+    void writeHeader(string path);
+    void writeLib(string path);
+    void writeAttrVar(string path);
+    void writeParts(string path);
+    void writeInst(string path);
+    void writeNet(string path);
+    void writeFooter(string path);
 
 };
