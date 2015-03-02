@@ -65,9 +65,11 @@ class ledRing{
     int two_side;
     vector <wire> outlines;
     vector <part> parts;
+  vector <instance> inst;
 
     void basicOutline();
     void createParts();
+    void createInst();
 };
 
 

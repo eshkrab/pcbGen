@@ -276,7 +276,71 @@ void ledRing::createParts(){
       parts.push_back(*l1);
     }
   }
-  ofLog()<<"parts size: "+ofToString(parts.size());
+  for(int i=0; i< LPS; i++){
+    part *l = new part;
+    l->name = "C"+ofToString(i);
+    l->library = "microbuilder";
+    l->deviceset = "CAP_CERAMIC";
+    l->device = "0805";
+    parts.push_back(*l);
+  }
+}
+void ledRing::createInst(){
+  instance *inst = new instance[parts.size()];
+  for(int i=0; i< parts.size(); i++){
+    inst[i].p = &parts[i];
+    inst[i].gate = "G$1";
+    if(inst[i].p->name == "SJ1" || inst[i].p->name == "SJ2" || inst[i].p->name == "SJ3"){
+      inst[i].gate="1";
+    }
+  }
+  inst[0].x = 17.78;
+  inst[0].y = 154.94;
+
+  inst[1].x = 17.78;
+  inst[1].y = 127; 
+
+  inst[2].x = 78.74;
+  inst[2].y = 154.94;
+
+  inst[3].x = 78.74;
+  inst[3].y = 137.16;
+
+  inst[4].x = 78.74;
+  inst[4].y = 165.1;
+
+  inst[5].x = 198.12;
+  inst[5].y = 147.32;
+
+  inst[6].x = 129.54;
+  inst[6].y = 137.16;
+
+  inst[7].x = 129.54;
+  inst[7].y = 160.02;
+
+  int cap_start = 8+LPS+LPS*two_side;
+  for(int i= cap_start + 1; i< cap_start + LPS; i++){
+    inst[i].y = 106.68;
+    ints[i].x = 20.3 + 6.5*(i-(cap_start+1));
+  }
+  //some scivis shit going on here, fast & slow axes and whatever
+  //make a grid, kinda, x and y depend on the indexes
+  int top_idx = 8;
+  int x_grid_size = 4;
+  int y_grid_size;
+  LPS % 4 ? y_grid_size=LPS/4 + 1 : y_grid_size = LPS/4; 
+  for(int i = 
+  //if(two_side){
+  //  for(int i=0; i< LPS; i++){
+  //    part *l1 = new part;
+  //    l1->name = "B"+ofToString(i);
+  //    l1->library = "SparkFun-LED";
+  //    l1->deviceset = "APA102";
+  //    l1->device = "";
+  //    parts.push_back(*l1);
+  //  }
+  //}
+
 }
 void ledRing::basicOutline(){
   wire *w = new wire[13];
