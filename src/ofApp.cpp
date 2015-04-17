@@ -11,11 +11,12 @@ void ofApp::setup(){
   bFile = new brdFile;
   sFile = new schFile;
   ring = new ledRing;
-  ring->orad = ring->irad = ring->mrad = 0;
-  ring->led = 0;
-  ring->width = 0;
-  ring->seg = 0;
-  ring->led_type = 0;
+  ring->orad = 25;
+  ring->irad = ring->mrad = 0;
+  ring->led = 50;
+  ring->width = 3;
+  ring->seg = 5;
+  ring->led_type = NEO;
 
   setGui();
   text.loadFont("sans-serif", 8);
@@ -48,10 +49,10 @@ void ofApp::setGui(){
   back_front.push_back("BOTH SIDES");
   gui = new ofxUISuperCanvas("RING GENERATOR");
   gui->addSpacer();
-  gui->addTextInput("OD", "outer diameter " + ofToString(ring->orad*2))->setAutoClear(true);
-  gui->addTextInput("WD", "width "+ ofToString(ring->width))->setAutoClear(true);
-  gui->addTextInput("SEG", "how many segments "+ ofToString(ring->seg))->setAutoClear(true);
-  gui->addTextInput("LED", "how many leds "+ ofToString(ring->led))->setAutoUnfocus(true);
+  gui->addTextInput("OD", "outer diameter")->setAutoUnfocus(false);
+  gui->addTextInput("WD", "width")->setAutoUnfocus(false);
+  gui->addTextInput("SEG", "how many segments")->setAutoUnfocus(false);
+  gui->addTextInput("LED", "how many leds")->setAutoUnfocus(false);
   gui->addRadio("LED_TYPE", leds, OFX_UI_ORIENTATION_VERTICAL);
   gui->addSpacer();
   gui->addRadio("LED_SIDE", back_front, OFX_UI_ORIENTATION_VERTICAL);
@@ -73,8 +74,10 @@ void ofApp::guiEvent(ofxUIEventArgs &e)
   if(kind == OFX_UI_WIDGET_TEXTINPUT){
     ofxUITextInput *ti = (ofxUITextInput *) e.widget;
     output = ti->getTextString();
-    if(name == "OD")
+    if(name == "OD"){
       ring->orad = ofToFloat(output)/2;
+      ofLog()<<"OD";
+    }
     else if (name == "WD")
       ring->width = ofToFloat(output);
     else if(name == "SEG")
@@ -123,6 +126,18 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
+  if(key == 'g'){
+    ring->irad = ring->orad - ring->width;
+    ring->mrad = ring->irad + ring->width/2;
+    ring->LPS = floor(ring->led/ring->seg);
+    ring->basicOutline();
+    ring->createParts();
+    ring->createInst();
+  }
+  if(key == 'q'){
+    exit();
+  }
+  
 
 }
 

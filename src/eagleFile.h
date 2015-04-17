@@ -53,6 +53,8 @@ class instance{
     string toString(){
       string str = "<instance part=\"" + p->name + "\" gate=\"" + gate + "\" x=\"";
       str += ofToString(x) + "\" y=\"" + ofToString(y) + "\"/>\n";
+      return str;
+      
     }
 };
 class ledRing{

@@ -352,9 +352,9 @@ void ledRing::createInst(){
     }
   }
   ofLog()<<"PARTS SIZE: "+ofToString(parts.size());
-  for(int i=top_idx; i<parts.size(); i++){
-    inst.push_back(in[i]);
-  }
+  //for(int i=top_idx; i<parts.size(); i++){
+  //  inst.push_back(in[i]);
+  //}
   ofLog()<<"INST SIZE: "+ofToString(inst.size());
 
 }
