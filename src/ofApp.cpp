@@ -96,8 +96,10 @@ void ofApp::guiEvent(ofxUIEventArgs &e)
     if(!button->getValue()){
       ring->irad = ring->orad - ring->width;
       ring->mrad = ring->irad + ring->width/2;
+      ring->LPS = floor(ring->led/ring->seg);
       ring->basicOutline();
       ring->createParts();
+      ring->createInst();
     }
   }else if (name == "SAVE"){
     ofxUIButton *button = (ofxUIButton *) e.widget;

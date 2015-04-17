@@ -170,6 +170,9 @@ void schFile::writeParts(string path){
 }
 void schFile::writeInst(string path){
   write_buff.append("<instances>\n");
+  for(vector<instance>::iterator it=ring->inst.begin(); it !=ring->inst.end(); ++it){
+    write_buff.append(it->toString());
+  }
 
   write_buff.append("</instances>\n");
 }
@@ -256,7 +259,6 @@ void ledRing::createParts(){
     parts.push_back(p[i]);
   }
 
-  int LPS = (int)led/seg;
   ofLog()<< ofToString(LPS);
   for(int i=0; i< LPS; i++){
     part *l = new part;
@@ -286,60 +288,74 @@ void ledRing::createParts(){
   }
 }
 void ledRing::createInst(){
-  instance *inst = new instance[parts.size()];
+  instance *in = new instance[parts.size()];
   for(int i=0; i< parts.size(); i++){
-    inst[i].p = &parts[i];
-    inst[i].gate = "G$1";
-    if(inst[i].p->name == "SJ1" || inst[i].p->name == "SJ2" || inst[i].p->name == "SJ3"){
-      inst[i].gate="1";
+    in[i].p = &parts[i];
+    in[i].gate = "G$1";
+    if(in[i].p->name == "SJ1" || in[i].p->name == "SJ2" || in[i].p->name == "SJ3"){
+      in[i].gate="1";
     }
   }
-  inst[0].x = 17.78;
-  inst[0].y = 154.94;
+  in[0].x = 17.78;
+  in[0].y = 154.94;
 
-  inst[1].x = 17.78;
-  inst[1].y = 127; 
+  in[1].x = 17.78;
+  in[1].y = 127; 
 
-  inst[2].x = 78.74;
-  inst[2].y = 154.94;
+  in[2].x = 78.74;
+  in[2].y = 154.94;
 
-  inst[3].x = 78.74;
-  inst[3].y = 137.16;
+  in[3].x = 78.74;
+  in[3].y = 137.16;
 
-  inst[4].x = 78.74;
-  inst[4].y = 165.1;
+  in[4].x = 78.74;
+  in[4].y = 165.1;
 
-  inst[5].x = 198.12;
-  inst[5].y = 147.32;
+  in[5].x = 198.12;
+  in[5].y = 147.32;
 
-  inst[6].x = 129.54;
-  inst[6].y = 137.16;
+  in[6].x = 129.54;
+  in[6].y = 137.16;
 
-  inst[7].x = 129.54;
-  inst[7].y = 160.02;
+  in[7].x = 129.54;
+  in[7].y = 160.02;
 
+  for(int i=0; i<8; i++){
+    inst.push_back(in[i]);
+  }
   int cap_start = 8+LPS+LPS*two_side;
   for(int i= cap_start + 1; i< cap_start + LPS; i++){
-    inst[i].y = 106.68;
-    ints[i].x = 20.3 + 6.5*(i-(cap_start+1));
+    in[i].y = 106.68;
+    in[i].x = 20.3 + 6.5*(i-(cap_start+1));
   }
   //some scivis shit going on here, fast & slow axes and whatever
   //make a grid, kinda, x and y depend on the indexes
+  //Y AXIS: start at 73, step -23
+  //X AXIS: start at 45, step 70
   int top_idx = 8;
   int x_grid_size = 4;
   int y_grid_size;
   LPS % 4 ? y_grid_size=LPS/4 + 1 : y_grid_size = LPS/4; 
-  for(int i = 
-  //if(two_side){
-  //  for(int i=0; i< LPS; i++){
-  //    part *l1 = new part;
-  //    l1->name = "B"+ofToString(i);
-  //    l1->library = "SparkFun-LED";
-  //    l1->deviceset = "APA102";
-  //    l1->device = "";
-  //    parts.push_back(*l1);
-  //  }
-  //}
+  for(int i = 0; i<y_grid_size; i++){
+    for(int j = 0; j<x_grid_size; j++){
+      in[top_idx+j+i].x=45+j*70;
+      in[top_idx+j+i].y=73-i*23;
+    }
+  }
+  if(two_side){
+    int bot_idx=8+LPS;
+    for(int i = 0; i<y_grid_size; i++){
+      for(int j = 0; j<x_grid_size; j++){
+        in[bot_idx+j+i].x=45+j*70;
+        in[bot_idx+j+i].y=-33-i*23;
+      }
+    }
+  }
+  ofLog()<<"PARTS SIZE: "+ofToString(parts.size());
+  for(int i=top_idx; i<parts.size(); i++){
+    inst.push_back(in[i]);
+  }
+  ofLog()<<"INST SIZE: "+ofToString(inst.size());
 
 }
 void ledRing::basicOutline(){
